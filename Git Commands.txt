@@ -1,4 +1,4 @@
-https://github.com/joshnh/Git-Commands
+Git Commands
 1)git init	----->>  					         Initialize a local Git repository
 2)git clone ssh://git@github.com/[username]/[repository-name].git      Create a local copy of a remote repository
 3) touch  filename.(.txt/html/css/java)                                                    Inside the folder file can be created
