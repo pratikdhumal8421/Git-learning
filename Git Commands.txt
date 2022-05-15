@@ -13,6 +13,11 @@ git remote add origin https://github.com/yourUsername/yourRepository.git
 git push -u origin master
 git push origin master
 
+Show files 
+1) git ls-files                   To show all the files insided all branches 
+2) git checkout HEAD             Deleted fiels recover and all recovered 
+3) git checkout HEAD foldername/filename     All folder and files are recovered
+
 Basic Snapshotting
 Command	                                                               Description
 1)git status			                                                     Check status
@@ -57,6 +62,4 @@ Command	Description
 3)git log --oneline				                        	View changes (briefly)
 4)git diff [source branch] [target branch]          Preview changes before merging
 
-Show files 
-1) git ls-files                   To show all the files insided all branches 
-2) git checkout head              Deleted fiels recover and all recovered 
+
