@@ -3,6 +3,16 @@ Git Commands
 2)git clone ssh://git@github.com/[username]/[repository-name].git      Create a local copy of a remote repository
 3) touch  filename.(.txt/html/css/java)                                Inside the folder file can be created
 
+
+
+Add Folder 
+git init
+git add <folder1> <folder2> <etc.>
+git commit -m "Your message about the commit"
+git remote add origin https://github.com/yourUsername/yourRepository.git
+git push -u origin master
+git push origin master
+
 Basic Snapshotting
 Command	                                                               Description
 1)git status			                                                     Check status
